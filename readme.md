@@ -1,39 +1,44 @@
-# Press Enter Game
+# Random Number Guessing Game
 
-A simple Python program that waits for the user to press the Enter key before continuing.
+A fun Python-based guessing game where players try to guess a randomly generated number within a given range. 🎲
 
 ## How It Works
 
-This program demonstrates how to use the `input()` function to wait for the user to press the Enter key. It can be expanded into a more interactive game or serve as a building block for other Python projects.
-
-## Code Example
-
-```python
-print("Press Enter to continue...")
-input()
-print("You pressed Enter!")
-```
+1. The user enters their name and is greeted with a brief introduction.
+2. The user specifies the lower and upper limits of the random number range.
+3. A random number is generated within the given range.
+4. The user has 7 attempts to guess the number, with hints provided for each incorrect guess:
+   - "Too high" if the guess is above the number.
+   - "Too low" if the guess is below the number.
+5. The game ends when the number is guessed or the user runs out of attempts.
 
 ## Features
 
-- **Simple and Interactive**: Just run the program and press Enter when prompted.
-- **Beginner-Friendly**: Great for those learning Python basics.
+- **Customizable Range**: Users choose the range of numbers for the game.
+- **Input Validation**: Handles invalid inputs gracefully.
+- **Friendly Hints**: Guides the user with feedback for incorrect guesses.
 
-## Usage
+## How to Play
 
-1. Make sure you have Python installed on your system.
-2. Copy the code above into a file named `press_enter.py`.
-3. Run the program using the command:
+1. Clone this repository:
    ```bash
-   python press_enter.py
+   git clone https://github.com/webcrafter011/Random-Number-Guessing-Game.git
    ```
-4. Follow the instructions displayed on the screen.
+2. Navigate to the project directory:
+   ```bash
+   cd Random-Number-Guessing-Game
+   ```
+3. Run the game script:
+   ```bash
+   RandomNumber.py
+   ```
+4. Follow the prompts and enjoy!
 
-## Customization
+## Customization Ideas
 
-Feel free to modify the program to add more interactivity or logic. For example, you could:
-- Add a countdown timer before accepting the Enter key.
-- Count how many times the user presses Enter.
+- **Dynamic Chances**: Allow users to set the number of attempts.
+- **Multiplayer Mode**: Compete with friends by taking turns guessing.
+- **Difficulty Levels**: Adjust the range and chances based on selected difficulty.
 
 ## License
 
@@ -41,4 +46,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-Enjoy coding! 🎉
+Have fun guessing! 🌟
